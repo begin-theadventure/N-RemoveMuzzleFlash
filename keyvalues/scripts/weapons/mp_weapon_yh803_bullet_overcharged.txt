@@ -1,0 +1,4 @@
+WeaponData
+{
+	"fx_muzzle_flash_view"							"wpn_muzzleflash_sentry"
+}

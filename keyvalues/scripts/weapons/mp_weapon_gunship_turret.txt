@@ -1,0 +1,4 @@
+WeaponData
+{
+	"fx_muzzle_flash_attach"						""
+}

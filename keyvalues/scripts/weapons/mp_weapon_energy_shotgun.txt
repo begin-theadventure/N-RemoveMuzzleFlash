@@ -1,0 +1,5 @@
+WeaponData
+{
+	"fx_muzzle_flash_view"							""
+	//"fx_muzzle_flash_view"						""
+}

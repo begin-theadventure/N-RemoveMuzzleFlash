@@ -1,0 +1,4 @@
+WeaponData
+{
+	"fx_muzzle_flash_view"							"wpn_mflash_xo_rocket_shoulder_FP"
+}

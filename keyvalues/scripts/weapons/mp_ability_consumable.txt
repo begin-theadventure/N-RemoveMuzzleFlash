@@ -1,0 +1,106 @@
+WeaponData
+{
+	Mods
+	{
+		health_small
+		{
+            "viewmodel" 							"mdl/weapons/health_injector/ptpov_health_injector.rmdl"
+            "playermodel" 							"mdl/Weapons/health_injector/w_health_injector.rmdl"
+            "printname"                             "#SURVIVAL_PICKUP_HEALTH_SMALL"
+            "charge_time"                           "4.0"
+            "hud_icon"                              "rui/hud/loot/loot_stim_health_small"
+			"activitymodifier"						"health_prop"
+
+			"charge_effect_attachment"				"muzzle_flash"
+			"charge_effect_1p"						"P_health_inj_charge_FP"
+			"charge_effect_3p"						"P_health_inj_charge"
+
+			"fx_muzzle_flash_view"					""
+			"fx_muzzle_flash_world"					"P_health_inj_mflash"
+			"fx_muzzle_flash_attach"				"muzzle_flash"
+		}
+
+		health_large
+		{
+            "viewmodel" 							"mdl/weapons/health_injector/ptpov_health_injector.rmdl"
+            "playermodel" 							"mdl/Weapons/health_injector/w_health_injector.rmdl"
+            "printname"                             "#SURVIVAL_PICKUP_HEALTH_LARGE"
+		    "charge_time"                           "7.0"
+		    "hud_icon"                              "rui/hud/loot/loot_stim_health_large"
+			"activitymodifier"						"health_prop"
+
+			"charge_effect_attachment"				"muzzle_flash"
+			"charge_effect_1p"						"P_health_inj_charge_FP"
+			"charge_effect_3p"						"P_health_inj_charge"
+
+			"fx_muzzle_flash_view"					""
+			"fx_muzzle_flash_world"					"P_health_inj_mflash"
+			"fx_muzzle_flash_attach"				"muzzle_flash"
+		}
+
+		shield_small
+		{
+            "viewmodel" 							"mdl/weapons/shield_battery/ptpov_shield_battery_small_held.rmdl"
+            "playermodel" 							"mdl/Weapons/shield_battery/w_shield_battery_small.rmdl"
+            "printname"                             "#SURVIVAL_PICKUP_HEALTH_COMBO_SMALL"
+            "charge_time"                           "2.0"
+            "hud_icon"                              "rui/hud/loot/loot_stim_shield_small"
+			"activitymodifier"						"shield_prop"
+
+			"charge_effect_1p"						"P_shield_battery_LRG_FP"
+			"charge_effect_3p"						""
+			"charge_effect_attachment"				"FX_CENTER"
+
+			"charge_effect2_1p"						"P_shield_battery_glow_FP"
+			"charge_effect2_3p"						"P_shield_battery_glow"
+			"charge_effect2_attachment"				"muzzle_flash"
+
+			"fx_muzzle_flash_view"					""
+			"fx_muzzle_flash_world"					"P_shield_battery_flash"
+			"fx_muzzle_flash_attach"				"muzzle_flash"
+		}
+
+		shield_large
+		{
+            "viewmodel" 							"mdl/weapons/shield_battery/ptpov_shield_battery_held.rmdl"
+            "playermodel" 							"mdl/Weapons/shield_battery/w_shield_battery.rmdl"
+            "printname"                             "#SURVIVAL_PICKUP_HEALTH_COMBO_LARGE"
+            "charge_time"                           "4.0"
+            "hud_icon"                              "rui/hud/loot/loot_stim_shield_large"
+			"activitymodifier"						"shield_prop"
+
+			"charge_effect_1p"						"P_shield_battery_LRG_FP"
+			"charge_effect_3p"						""
+			"charge_effect_attachment"				"FX_CENTER"
+
+			"charge_effect2_1p"						"P_shield_battery_glow_FP"
+			"charge_effect2_3p"						"P_shield_battery_glow"
+			"charge_effect2_attachment"				"muzzle_flash"
+
+			"fx_muzzle_flash_view"					""
+			"fx_muzzle_flash_world"					"P_shield_battery_flash"
+			"fx_muzzle_flash_attach"				"muzzle_flash"
+		}
+
+        phoenix_kit
+        {
+            "viewmodel" 							"mdl/weapons/shield_battery/ptpov_shield_battery_held.rmdl"
+            "playermodel" 							"mdl/Weapons/shield_battery/w_shield_battery.rmdl"
+            "printname"                             "#SURVIVAL_PICKUP_HEALTH_COMBO_FULL"
+            "charge_time"                           "9.0"
+            "hud_icon"                              "rui/hud/loot/loot_stim_combo_full"
+ 			"activitymodifier"						"shield_prop"
+
+			"charge_effect_1p"						"P_shield_battery_LRG_FP"
+			"charge_effect_3p"						""
+			"charge_effect_attachment"				"FX_CENTER"
+
+			"charge_effect2_1p"						"P_shield_battery_glow_FP"
+			"charge_effect2_3p"						"P_shield_battery_glow"
+			"charge_effect2_attachment"				"muzzle_flash"
+
+			"fx_muzzle_flash_view"					""
+			"fx_muzzle_flash_world"					"P_shield_battery_flash"
+			"fx_muzzle_flash_attach"				"muzzle_flash"
+       }
+}

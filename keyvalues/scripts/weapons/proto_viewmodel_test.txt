@@ -1,0 +1,168 @@
+WeaponData
+{
+	"fx_muzzle_flash_view"							""
+	Mods
+	{
+
+		iron_sights
+		{
+
+		}
+		hcog
+		{
+			"anim_alt_idleAttack"	"1"
+		//	"bodygroup1_set"	"0"
+		//	"bodygroup2_set"	"0"
+		//	"bodygroup3_set"	"0"
+		//	"bodygroup4_set"	"1"
+		//	"bodygroup6_set"	"1"
+			"zoom_fov"			"45"
+			"ui1_enable"		"0"
+			"ui2_enable"		"0"
+
+
+			//"sway_min_yaw_zoomed"							"-0.13"
+			//"sway_max_yaw_zoomed"							"0.13"
+			//"sway_min_pitch_zoomed"  						"-0.11"
+			//"sway_max_pitch_zoomed"  						"0.11"
+		}
+
+		holosight
+		{
+			"anim_alt_idleAttack"	"2"
+		//	"bodygroup1_set"	"0"
+		//	"bodygroup2_set"	"0"
+		//	"bodygroup3_set"	"1"
+		//	"bodygroup4_set"	"1"
+		//	"bodygroup9_set"	"1"
+			"zoom_fov"			"40"
+		}
+
+		aog
+		{
+			"anim_alt_idleAttack"	"3"
+		//	"bodygroup1_set"	"0"
+		//	"bodygroup2_set"	"0"
+		//	"bodygroup3_set"	"1"
+		//	"bodygroup4_set"	"1"
+		//	"bodygroup5_set"	"1"
+			"zoom_fov"			"30"
+		}
+
+		single_shot
+		{
+			//SINGLE SHOT
+			"description" 					"Semi-Automatic Variant"
+
+			"fire_mode"   					"semi-auto"
+			"ammo_clip_size"				"12"
+			"damage_near_value"   			"75"
+			"damage_far_value"				"70"
+			"reload_time" 					"1.25"
+			"reloadempty_time"				"1.85"
+			"fire_sound_2"					"Weapon_R1010_FirstShotBurst_1P"
+		}
+
+
+		pas_fast_reload
+		{
+			"reload_time"						"*0.7"
+			"reload_time_late1"					"*0.7"
+			"reloadempty_time"					"*0.7"
+			"reloadempty_time_late1"			"*0.7"
+		}
+		extended_ammo
+		{
+			"ammo_stockpile_max"				"300"
+			"ammo_clip_size"   					"30"
+			"ammo_default_total"				"300"
+		}
+		silencer //HACK JFS: Doesn't get applied on amped weapons. See bug 170460
+		{
+			"silenced"							"1"
+		//	"bodygroup8_set"					"1"
+			"damage_near_value"   				"49"
+			"damage_far_value"					"34"
+			//"rumble"  						"4"
+			"tracer_effect"   					"P_wpn_tracer_pistol"
+			"minimap_reveal_distance"			"1"
+			"fire_sound_2_player_1p"						""
+			"fire_sound_2_player_3p"						""
+
+			"burst_or_looping_fire_sound_start_1p"			"Weapon_R101_FirstShotSuppressed_1P"
+			"burst_or_looping_fire_sound_middle_1p"			"Weapon_R101_LoopSuppressed_1P"
+			"burst_or_looping_fire_sound_end_1p"			"Weapon_R101_LoopSuppressedEnd_1P"
+
+			"burst_or_looping_fire_sound_start_3p"			"Weapon_R101_FirstShotSuppressed_3P"
+			"burst_or_looping_fire_sound_middle_3p"			"Weapon_R101_LoopSuppressed_3P"
+			"burst_or_looping_fire_sound_end_3p"			"Weapon_R101_LoopSuppressedEnd_3P"
+
+			"fx_muzzle_flash_view"				""
+			"fx_muzzle_flash_world"				"wpn_muzzleflash_pistol_sup"
+			"fx_muzzle_flash_attach"			"muzzle_flash_suppressor_sq"
+		}
+
+		m4style
+		{
+			"fire_rate"   									"12.5"
+
+			"spread_max_kick_stand_ads"   					"0.25"
+			"spread_max_kick_crouch_ads"  					"0.25"
+			"spread_max_kick_air_ads" 						"0.25"
+
+			"viewkick_pitch_base" 							"-0.1"
+			"viewkick_pitch_random"   						"0.3"
+			"viewkick_pitch_softScale"						"1.0"
+			"viewkick_pitch_hardScale"						"2.0"
+
+			"viewkick_yaw_base"   							"0"
+			"viewkick_yaw_random" 							"0.3"
+
+			"viewkick_ads_weaponFraction_vmScale" 			"0.75"
+
+			"viewkick_scale_firstshot_ads"					"2.0"
+			"viewkick_scale_valueLerpEnd" 					"0"
+
+			"viewkick_perm_pitch_base" 						"0"
+			"viewkick_perm_pitch_random"   					"0"
+			"viewkick_perm_yaw_base"   						"0"
+			"viewkick_perm_yaw_random" 						"0"
+		}
+		burn_mod_rspn101
+		{
+			"is_burn_mod"									"1"
+
+			//FX
+			"tracer_effect"   								"P_wpn_tracer_BC"
+			"tracer_effect_first_person"                    "P_wpn_tracer_BC"
+			"fx_muzzle_flash_view"							""
+			"fx_muzzle_flash_world"							"wpn_muzzleflash_smg_elec"
+
+			//HCOG
+			"anim_alt_idleAttack"	"1"
+		//	"bodygroup1_set"	"0"
+		//	"bodygroup2_set"	"0"
+		//	"bodygroup3_set"	"0"
+		//	"bodygroup4_set"	"1"
+		//	"bodygroup6_set"	"1"
+			"ui1_enable"		"0"
+			"ui2_enable"		"0"
+
+			//Fast Reload
+			"reload_time"						"*0.7"
+			"reload_time_late1"					"*0.7"
+			"reloadempty_time"					"*0.7"
+			"reloadempty_time_late1"			"*0.7"
+
+			//Fast ADS
+			"zoom_time_in"									"*0.5"
+			"zoom_time_out"   								"*0.6"
+
+			//Extended Ammo
+			"ammo_stockpile_max"				"300"
+			"ammo_clip_size"   					"30"
+			"ammo_default_total"				"300"
+
+		}
+	}
+}

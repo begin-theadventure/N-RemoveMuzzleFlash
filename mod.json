@@ -1,0 +1,6 @@
+{
+	"Name" : "ඞRemove Muzzle Flash",
+	"Description" : "-Remove Muzzle Flash",
+	"Version": "ඞ1.0",
+	"LoadPriority": 1,
+}
