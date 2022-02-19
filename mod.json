@@ -1,6 +1,6 @@
 {
 	"Name" : "ඞRemove Muzzle Flash",
-	"Description" : "-Remove Muzzle Flash",
+	"Description" : "-Removes muzzle flash from pilot (including amped & silenced) and titan weapons. ",
 	"Version": "ඞ1.0",
 	"LoadPriority": 1,
 }
