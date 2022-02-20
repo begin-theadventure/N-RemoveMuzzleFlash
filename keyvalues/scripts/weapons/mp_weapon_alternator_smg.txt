@@ -1,0 +1,151 @@
+WeaponData
+{
+	"fx_muzzle_flash_view"							""
+	Mods
+	{
+		iron_sights
+		{
+			"bodygroup1_set"		"1"
+			"bodygroup2_set"		"0"
+			"bodygroup3_set"		"0"
+			"bodygroup4_set"		"0"
+		}
+		hcog
+		{
+			"ui5_enable"		"1"
+			"ui6_enable"		"1"
+			"ui1_enable"		"0"
+
+			"bodygroup1_set"	    "0"
+			"bodygroup2_set"	    "0"
+			"bodygroup3_set"	    "1"
+			"bodygroup4_set"	    "0"
+
+			"dof_zoom_nearDepthStart"						"6.161"
+			"dof_zoom_nearDepthEnd"							"9.204"
+			"viewmodel_offset_ads"							"0 -4.8 -0.73"
+			"zoom_fov"		    	"35"
+			dof_zoom_focusArea_horizontal					0.085
+			dof_zoom_focusArea_top							0.18
+			dof_zoom_focusArea_bottom						-0.06
+		}
+		holosight
+		{
+			"bodygroup1_set"	    "0"
+			"bodygroup2_set"	    "0"
+			"bodygroup3_set"	    "1"
+			"bodygroup4_set"	    "0"
+
+			"dof_zoom_nearDepthStart"						"6.161"
+			"dof_zoom_nearDepthEnd"							"9.204"
+			"viewmodel_offset_ads"							"0 -4.8 -0.76"
+			"zoom_fov"		    	"35"
+			dof_zoom_focusArea_horizontal					0.062
+			dof_zoom_focusArea_top							0.10
+			dof_zoom_focusArea_bottom						-0.040
+		}
+		redline_sight
+		{
+			"ui1_enable"		"0"
+			"ui3_enable"		"1"
+
+			"bodygroup1_set"	    "0"
+			"bodygroup2_set"	    "1"
+			"bodygroup3_set"	    "0"
+			"bodygroup4_set"	    "0"
+
+			"viewmodel_offset_ads"							"0 -5.9 -0.35"
+			"dof_zoom_nearDepthStart"						"5.691"
+			"dof_zoom_nearDepthEnd"							"6.745"
+
+			"zoom_fov"						"25"
+			dof_zoom_focusArea_horizontal					0.085
+			dof_zoom_focusArea_top							0.080
+			dof_zoom_focusArea_bottom						-0.047
+		}
+		threat_scope
+		{
+			"ui1_enable"	"0"
+			"ui4_enable"	"1"
+
+			"bodygroup1_set"	    "0"
+			"bodygroup2_set"	    "0"
+			"bodygroup3_set"	    "0"
+			"bodygroup4_set"	    "1"
+
+			"viewmodel_offset_ads"							"0 -7.1 -0.4"
+			"dof_zoom_nearDepthStart"						"5.040"
+			"dof_zoom_nearDepthEnd"							"5.737"
+
+			"threat_scope_enabled"		"1"
+			"threat_scope_bounds_tagname1"	"SCR_TR_CRO"
+			"threat_scope_bounds_tagname2"	"SCR_BL_CRO"
+			dof_zoom_focusArea_horizontal					0.068
+			dof_zoom_focusArea_top							0.065
+			dof_zoom_focusArea_bottom						-0.046
+		}
+		smart_lock
+		{
+		}
+		pro_screen
+		{
+			"ui8_enable"		"1"
+			"bodygroup6_set"	"1"
+		}
+		extended_ammo
+		{
+			"ammo_stockpile_max"						"375"
+			"ammo_clip_size"   							"25"
+			"ammo_default_total"						"375"
+		}
+		tactical_cdr_on_kill
+		{
+
+		}
+		pas_fast_reload
+		{
+			"reload_time"								"*0.7"
+			"reload_time_late1"							"*0.7"
+			"reloadempty_time"							"*0.7"
+			"reloadempty_time_late1"					"*0.7"
+		}
+		pas_run_and_gun
+		{
+			"primary_fire_does_not_block_sprint"		"1"
+			"crosshair_force_sprint_fade_disabled"      "1"
+		}
+		pas_fast_ads
+		{
+			//Fast ADS
+			"zoom_time_in"									"*0.5"
+			"zoom_time_out"   								"*0.6"
+		}
+		pas_fast_swap
+		{
+			//Fast Swap
+			"fast_swap_to"									"1"
+		}
+		burn_mod_alternator_smg
+		{
+			"is_burn_mod"		                        "1"
+
+			//FX
+			"fx_muzzle_flash_view"							""
+			"fx_muzzle_flash_world"							"P_wpn_muzzleflash_alternator_burn"
+			"fx_muzzle_flash_attach"						"muzzle_flash"
+
+			"fx_muzzle_flash2_view"							""
+			"fx_muzzle_flash2_world"						"P_wpn_muzzleflash_alternator_burn"
+			"fx_muzzle_flash2_attach"						"muzzle_flash_l"
+
+			"tracer_effect_first_person"                "P_wpn_tracer_BC"
+			"tracer_effect"   							"P_wpn_tracer_BC"
+
+			"damage_near_value"   							"++10"
+			"damage_far_value"								"++2"
+			"damage_very_far_value"							"++3"
+			"damage_near_value_titanarmor"					"200"
+			"damage_far_value_titanarmor" 					"160"
+		}
+	}
+}
