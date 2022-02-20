@@ -1,4 +1,0 @@
-WeaponData
-{
-	"fx_muzzle_flash_attach"						""	// on titan in 3p, on weapon in 1p
-}
