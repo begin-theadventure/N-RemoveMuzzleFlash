@@ -1,0 +1,6 @@
+{
+	"Name": "ඞb-ta.RemoveMuzzleFlash",
+	"Description": "-Removes muzzle flash from pilot (including amped & silenced) and titan weapons.\nVarious fx_muzzle_flash_ values changed to empty.\nbegin-theadventure 2023",
+	"Version": "ඞ1.0.2",
+	"LoadPriority": 1
+}

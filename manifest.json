@@ -1,0 +1,7 @@
+{
+    "name": "Remove_Muzzle_Flash",
+    "version_number": "1.0.2",
+    "website_url": "https://github.com/begin-theadventure/N-RemoveMuzzleFlash",
+    "description": "Removes muzzle flash from weapons.",
+    "dependencies": []
+}
